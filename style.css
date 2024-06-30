@@ -224,10 +224,10 @@ section.page-2 {
 #page2-description {
   font-size: 19px;
   max-width: 521px;
-  margin-right: 27px;
   color: #bababa;
   line-height: 25px;
   padding-block: 25px 26px;
+  margin-right: 23px;
 }
 
 .cards {
@@ -238,12 +238,81 @@ section.page-2 {
   margin-left: 180px;
 }
 
-.first-card, .second-card {
-  background-color: rgba(255,255,255,0.2);
-  height: 367px;
-  width: 45%;
+.first-card {
+  background-color: rgba(240, 240, 240, 0.15);
+  height: auto;
+  max-width: 782px;
+  margin-bottom: 88px;
+  /* border-bottom: 3px solid rgb(240, 240, 240); */
+}
+
+.first-card {
+  display: flex;
+  margin-right: 39px;
+}
+
+.first-card-details {
+  display: flex;
+  flex-direction: column;
+  margin: 38px 0px 38px 38px;
+}
+
+.first-card-des {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 25px;
+  max-width: 334px;
+  margin-right: 59px;
+  padding-bottom: 30px;
+}
+
+.page2-icon {
+  max-width: 112px;
+  max-height: 112px;
+}
+
+.page2-photo {
+  width: 313px;
+  height: auto;
+  object-fit: cover;
+  margin: 38px 38px 38px 0px;
+}
+
+.second-card {
+  display: grid;
+  grid-template-columns: 261px 261px;
+  column-gap: 25px;
+  row-gap: 25px;
   margin-bottom: 88px;
 }
+
+.sub-card {
+  background-color: rgba(240, 240, 240, 0.15);
+  border-bottom: 3px solid #B99755;
+  padding: 37px 40px 37px 41px;
+}
+
+.sub-card-title, .sub-card-description {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: 'Poppins', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sub-card-description {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+#prop-title {
+  color: #B99755;
+}
+
+/* #prop-card {
+  background: linear-gradient(170deg, #999999, #B99755);
+} */
 
 /* Page 3 */
 section.page-3 {
