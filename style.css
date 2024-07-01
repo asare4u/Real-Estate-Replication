@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -493,6 +492,13 @@ section.page-3, section.page-4 {
   margin: 0;
 }
 
+.page4-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+}
+
 .page4-left-content {
   display: flex;
   flex-direction: column;
@@ -502,4 +508,105 @@ section.page-3, section.page-4 {
 
 #page4-title {
   max-width: 597px;
+  margin-bottom: 65px;
+  margin-top: 0;
+}
+
+.trend1, .trend2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 140px;
+}
+
+.trend2 {
+  margin-bottom: 0;
+}
+
+.page4-photo1 {
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 19px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.user-info-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userName, .date, .trend1-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7E7D77;
+}
+
+.trend1-title, .trend2-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #3B3832;
+  margin-bottom: 10px;
+}
+
+.trend1-info, .trend2-info {
+  color: #7E7D77;
+  max-width: 482px;
+  line-height: 25px;
+  margin-bottom: 28px;
+}
+
+.trend-learn-more-sec {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.trend-learn-more {
+  font-family: 'Poppins', sans-serif;
+  font-size: 500;
+  color: #3B3832;
+}
+
+.arrow {
+  width: 18px;
+  height: auto;
+  margin-left: 14px;
+}
+
+.trend2-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 59px;
+}
+
+.see-more {
+  width: 149px;
+  height: 108px;
+}
+
+.page4-photo3 {
+  object-fit: cover;
+  object-position: center;
+  max-width: 430px;
+  height: 270px;
 }
