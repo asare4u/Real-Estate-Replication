@@ -344,7 +344,7 @@ section.page-3 {
 
 .sec3-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -357,10 +357,9 @@ section.page-3 {
   object-position: center;
   width: 664px;
   height: 667px;
-  position: relative;
 }
 
-.like-btn {
+.like-btn, .like-btn2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -370,8 +369,9 @@ section.page-3 {
   width: 58px;
   height: 58px;
   position: absolute;
-  top: 23px;
+  top: 24px;
   right: 28px;
+  cursor: pointer;
 }
 
 .like-icon {
@@ -440,3 +440,52 @@ section.page-3 {
   margin-left: 0;
   margin-right: 24px;
 }
+
+.sec3-content2 {
+  position: relative;
+}
+
+.content2-top-photo {
+  object-fit: cover;
+  object-position: center;
+  width: 665px;
+  height: 319px;
+  margin-left: 39px;
+  margin-bottom: 28px;
+}
+
+.content2-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 39px;
+}
+
+.content2-down-card1, .content2-down-card2 {
+  position: relative;
+}
+
+.content2-down-photo1, .content2-down-photo2 {
+  object-fit: cover;
+  object-position: center;
+  width: 318px;
+  height: 320px;
+}
+
+.content2-down-photo2 {
+  margin-left: 29px;
+}
+
+.viewMore {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.viewMorebtn {
+  width: 149px;
+  height: 108px;
+  margin-top: 58px;
+}
+
+/* Page 4 */
