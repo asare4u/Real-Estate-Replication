@@ -546,6 +546,8 @@ section.page-3, section.page-4 {
 }
 
 .user-photo {
+  object-fit: cover;
+  object-position: center;
   width: 48px;
   height: 48px;
   border-radius: 50%;
