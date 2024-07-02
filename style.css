@@ -96,6 +96,7 @@ body {
   width: 100px;
   background-color: #fff;
   border: none;
+  outline: none;
   padding-top: 14px;
   padding-bottom: 13px;
   margin-right: 20px;
@@ -116,7 +117,7 @@ body {
 
 /* Main page section */
 /* Page 1 */
-section.page-1, section.page-3, section.page-4, section.page-6 {
+section.page-1, section.page-3, section.page-4, section.page-6, .page-7 {
   margin-top: 170px;
   margin-bottom: 193px;
   width: 100%;
@@ -312,7 +313,7 @@ section.page-2, section.page-5 {
 }
 
 /* Page 3 */
-section.page-3, section.page-4, section.page-6 {
+section.page-3, section.page-4, section.page-6, .page-7 {
   margin-top: 0;
 }
 
@@ -332,7 +333,7 @@ section.page-3, section.page-4, section.page-6 {
   margin-top: 0;
 }
 
-#page3-title, #page4-title {
+#page3-title, #page4-title, #page7-title {
   font-size: 46px;
   font-weight: 600;
 }
@@ -492,7 +493,7 @@ section.page-3, section.page-4, section.page-6 {
 }
 
 /* Page 4 */
-#num4, #num6 {
+#num4, #num6, #num7 {
   margin: 0;
 }
 
@@ -789,3 +790,76 @@ section.page-6 {
 }
 
 /* Page 7 */
+section.page-7-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+}
+
+.page-7 {
+  margin-bottom: 0;
+}
+
+#page7-title {
+  width: 614px;
+  margin-bottom: 50px;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #1A1A1A;
+  width: 100%;
+}
+
+.page-7-form {
+  border: 1px solid #ECE9E1;
+  background-color: #fff;
+  width: 622px;
+  padding: 30px;
+  position: absolute;
+  right: 180px;
+  top: 19px;
+}
+
+input, textarea {
+  font-size: 17px;
+  font-weight: 500;
+  color: #3B3832;
+  background: #F8F7F2;
+  border: 1px solid #ECE9E1;
+  padding-left: 19px;
+  padding-block: 20px;
+  margin-top: 22px;
+  width: 555px;
+}
+
+.firstName, .lastName {
+  width: 267px;
+  margin-right: 19px;
+}
+
+.lastName {
+  margin-right: 0;
+}
+
+.user-message {
+  height: 250px;
+}
+
+.submit-button {
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  width: 555px;
+  background-color: #B99755;
+  border: none;
+  padding: 20px 220px;
+  margin-top: 22px;
+}
