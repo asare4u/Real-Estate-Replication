@@ -190,7 +190,7 @@ section.page-1, section.page-3, section.page-4 {
 }
 
 /* Page 2 */
-section.page-2 {
+section.page-2, section.page-5 {
   background-color: #1A1A1A;
   padding-top: 120px;
   margin-top: 0;
@@ -201,7 +201,7 @@ section.page-2 {
   padding-left: 0px;
 }
 
-#num2 {
+#num2, #num5 {
   margin: 0px 0px 0px 180px;
 }
 
@@ -212,14 +212,14 @@ section.page-2 {
   margin: 30px 180px 67px 180px;
 }
 
-#page2-title {
+#page2-title, #page5-left-content-title {
   font-size: 50px;
   font-weight: 600;
   color: #fff;
   margin-top: 0;
 }
 
-#page2-description {
+#page2-description, #page5-left-content-description {
   font-size: 19px;
   max-width: 521px;
   color: #bababa;
@@ -604,6 +604,7 @@ section.page-3, section.page-4 {
 .see-more {
   width: 149px;
   height: 108px;
+  cursor: pointer;
 }
 
 .page4-photo3 {
@@ -612,3 +613,109 @@ section.page-3, section.page-4 {
   max-width: 430px;
   height: 270px;
 }
+
+/* Page 5 */
+section.page-5 {
+  padding-bottom: 120px;
+}
+ 
+.page5-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin: 30px 180px 0px 180px;
+}
+
+.page5-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+#page5-left-content-title {
+  margin-bottom: 20px;
+  max-width: 378px;
+}
+
+#page5-left-content-description {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  width: 427px;
+}
+
+.page5-right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 23px;
+  padding-bottom: 26px;
+}
+
+.service-logo {
+  width: 77px;
+  height: 77px;
+}
+
+.service-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-left: 15px;
+}
+
+.service-info-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.service-info-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-info-text {
+  font-size: 19px;
+  font-weight: 500;
+  color: #bababa;
+  width: 525px;
+  line-height: 25px;
+  margin-right: 93px;
+}
+
+.right-arrow-btn {
+  background-color: #1A1A1A;
+  border: 2px solid #B28D48;
+  border-radius: 25px;
+  padding: 11px 26px;
+  cursor: pointer;
+}
+
+.service-arrow {
+  width: 36px;
+  height: 26px;
+}
+
+#service3 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Page 6 */
