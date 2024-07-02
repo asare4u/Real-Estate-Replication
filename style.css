@@ -116,7 +116,7 @@ body {
 
 /* Main page section */
 /* Page 1 */
-section.page-1, section.page-3, section.page-4 {
+section.page-1, section.page-3, section.page-4, section.page-6 {
   margin-top: 170px;
   margin-bottom: 193px;
   width: 100%;
@@ -312,7 +312,7 @@ section.page-2, section.page-5 {
 }
 
 /* Page 3 */
-section.page-3, section.page-4 {
+section.page-3, section.page-4, section.page-6 {
   margin-top: 0;
 }
 
@@ -326,6 +326,10 @@ section.page-3, section.page-4 {
   justify-content: space-between;
   align-items: center;
   margin-block: 30px 63px;
+}
+
+#page3-title {
+  margin-top: 0;
 }
 
 #page3-title, #page4-title {
@@ -488,7 +492,7 @@ section.page-3, section.page-4 {
 }
 
 /* Page 4 */
-#num4 {
+#num4, #num6 {
   margin: 0;
 }
 
@@ -496,7 +500,7 @@ section.page-3, section.page-4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 13px;
+  margin-top: 30px;
 }
 
 .page4-left-content {
@@ -719,3 +723,69 @@ section.page-5 {
 
 
 /* Page 6 */
+section.page-6 {
+  margin-bottom: 0;
+}
+
+.page6-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 30px 73px;
+}
+
+#page6-title {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+#page6-description {
+  max-width: 595px;
+}
+
+.page6-left-arrow {
+  width: 59px;
+  height: 59px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.page6-right-arrow {
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+}
+
+.page6-pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page6-photo {
+  object-fit: cover;
+  object-position: center;
+  width: 195px;
+  height: 531px;
+  margin-right: 15px;
+}
+
+#page6-photo3 {
+  width: 528px;
+}
+
+#page6-photo5 {
+  margin: 0;
+}
+
+.short-line {
+  background-color: #B99755;
+  margin-top: 51px;
+  width: 193px;
+  height: 7px;
+  margin-left: 158px;
+  margin-bottom: 193px;
+  border-radius: 4.5px;
+}
+
+/* Page 7 */
