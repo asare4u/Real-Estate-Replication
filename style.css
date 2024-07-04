@@ -377,6 +377,11 @@ section.page-3, section.page-4, section.page-6, .page-7 {
   cursor: pointer;
 }
 
+.like-btn:hover, .like-btn2:hover {
+  scale: 1.1;
+  transform: all 0.5s;
+} 
+
 .like-icon {
   width: 25px;
   height: 22px;
@@ -418,7 +423,14 @@ section.page-3, section.page-4, section.page-6, .page-7 {
 .cost-side {
   width: 60px;
   height: 60px;
+  scale: 1.1;
+  transform: all 0.5s;
   cursor: pointer;
+}
+
+.cost-side:hover {
+  scale: 1.2;
+  transform: all 0.5s;
 }
 
 .down {
@@ -757,6 +769,11 @@ section.page-6 {
   cursor: pointer;
 }
 
+.page6-left-arrow:hover, .page6-right-arrow:hover {
+  scale: 1.1;
+  transform: all 0.5s;
+}
+
 .page6-pictures {
   display: flex;
   justify-content: center;
@@ -812,7 +829,7 @@ section.page-7-container {
   height: auto;
 }
 
-/* Footer */
+/* Page 7 */
 .page-footer {
   background-color: #1A1A1A;
   width: 100%;
@@ -838,6 +855,7 @@ input, textarea {
   padding-block: 20px;
   margin-top: 22px;
   width: 555px;
+  outline: none;
 }
 
 .firstName, .lastName {
@@ -862,8 +880,11 @@ input, textarea {
   border: none;
   padding: 20px 220px;
   margin-top: 22px;
+  cursor: pointer;
 }
 
+
+/* Footer */
 .page-footer {
   padding: 192px 180px 29px;
 }
